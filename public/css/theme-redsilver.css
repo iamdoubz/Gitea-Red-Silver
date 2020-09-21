@@ -1,0 +1,235 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #cb1b30 hsla(353, 77%, 45%, .1)
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none!important;
+    width: 10px!important;
+    height: 10px!important
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0!important;
+    background: hsla(353, 77%, 45%, .1)!important
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer!important;
+    border-radius: 1px!important;
+    -webkit-transition: color .2s ease!important;
+    transition: color .2s ease!important
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive {
+    background: #cb1b30!important
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cb1b30!important
+}
+
+body, footer {
+    background: #e2e2e2
+}
+
+footer {
+    border-top: 1px solid #e53449
+}
+
+.ui.container, .explore .navbar {
+    background: #e2e2e2
+}
+
+.home a {
+    color: #cb1b30
+}
+
+.home .hero .svg {
+    color: #cb1b30
+}
+
+a {
+    color: #cb1b30;
+    text-decoration: none
+}
+
+a:hover {
+    color: #b5172a;
+    text-decoration: none
+}
+
+.repository .header-wrapper, .header-wrapper {
+    background: #e2e2e2
+}
+
+.ui.tabular.menu .active.item {
+    border-color: #e53449;
+    background: #e2e2e2
+}
+
+.ui.compact.left.small.menu .active.item {
+    -webkit-box-shadow: inset 0 0 0 1px #e53449!important;
+    box-shadow: inset 0 0 0 1px #e53449!important;
+    background: #efefef
+}
+
+.ui.compact.left.small.menu .item {
+    background: #efefef
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+    border-top: 1px solid #e53449
+}
+
+.ui.blue.button, .ui.blue.buttons .button, .ui.green.button, .ui.green.buttons .button {
+    background-color: #cb1b30;
+    color: #fff;
+    text-shadow: none;
+    background-image: none
+}
+
+.ui.blue.button:hover, .ui.blue.buttons .button:hover, .ui.green.button:hover, .ui.green.buttons .button:hover {
+    background-color: #b5172a
+}
+
+.ui.basic.blue.button, .ui.basic.blue.buttons .button, .ui.blue.basic.button, .ui.blue.basic.buttons .button {
+    -webkit-box-shadow: inset 0 0 0 1px #e53449!important;
+    box-shadow: inset 0 0 0 1px #e53449!important;
+    color: #cb1b30!important;
+}
+
+.following.bar.light {
+    border-bottom: 1px solid #cb1b30
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url] {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    font-size: 1em;
+    background: #efefef;
+    border: 1px solid rgba(119, 101, 227, .15);
+    color: rgb(0, 0, 0);
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 0 transparent inset;
+    box-shadow: 0 0 0 0 transparent inset;
+    -webkit-transition: color .1s ease, border-color .1s ease;
+    transition: color .1s ease, border-color .1s ease
+}
+
+.ui.form input:not([type]):focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=email]:focus, .ui.form input[type=file]:focus, .ui.form input[type=number]:focus, .ui.form input[type=password]:focus, .ui.form input[type=search]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=text]:focus, .ui.form input[type=time]:focus, .ui.form input[type=url]:focus {
+    color: rgba(0, 0, 0, .95);
+    border-color: #cb1b30;
+    border-radius: .28571429rem;
+    background: #efefef;
+    -webkit-box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset;
+    box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset
+}
+
+.ui.input.focus>input, .ui.input>input:focus {
+    border-color: #cb1b30;
+    background: #efefef;
+    color: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.heatmap-color-0{
+    background-color:#703838
+}
+
+.heatmap-color-1{
+    background-color:#8e3e3e
+}
+
+.heatmap-color-2{
+    background-color:#a93d3d
+}
+
+.heatmap-color-3{
+    background-color:#c63939
+}
+
+.heatmap-color-4{
+    background-color:#e33535
+}
+
+.activity-bar-graph,.heatmap-color-5{
+    background-color:#fd2b2b
+}
+
+.ui.blue.small.label, .ui.blue.labels .label, .ui.ui.ui.blue.label {
+    background-color: #cb1b30;
+    border-color: #cb1b30
+}
+
+.ui.green.labels .label, .ui.ui.ui.green.label {
+    background-color: #b5172a;
+    border-color: #b5172a;
+    color: #fff;
+}
+
+.explore .navbar, .ui.menu.new-menu {
+    background: #e2e2e2!important
+}
+
+.ui.segment, .repo-files-table {
+    background: #efefef
+}
+
+.ui.top.tabular.menu {
+    border-bottom: 1px solid #cb1b30
+}
+
+.ui.top.tabular.menu .active.item {
+    background: #efefef
+}
+
+.ui.top.attached.pull.tabular.stackable.menu .active.item {
+    background: #e2e2e2
+}
+
+.ui.two.item.tabable.menu .item.active {
+    -webkit-box-shadow: inset 0 0 0 1px #e53449!important;
+    box-shadow: inset 0 0 0 1px #e53449!important
+}
+
+.ui .warning.header {
+    background: #ff6a00!important
+}
+
+.ui .warning.header, .ui .warning.segment {
+    border-color: #ff6a00
+}
+
+.ui.action.input:not([class*="left action"])>input:focus {
+    border-right-color: #cb1b30
+}
+
+.ui.icon.button, .ui.icon.buttons .button {
+    -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset
+}
+
+.ui.secondary.pointing.menu .active.item {
+    background: #e2e2e2;
+    color: rgba(0,0,0,.95);
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-color: #e53449;
+    font-weight: 700;
+    margin-bottom: -1px;
+    -webkit-box-shadow: inset 1px 1px #e53449, inset -1px 0 #e53449;
+    box-shadow: inset 1px 1px #e53449, inset -1px 0 #e53449;
+    border-radius: .28571429rem .28571429rem 0 0;
+    border-bottom: none!important
+}
+
+.feeds .list ul li.private {
+    background-color: #d4d4d4
+}
