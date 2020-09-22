@@ -275,3 +275,16 @@ a:hover {
     border-radius: .28571429rem .28571429rem 0 0;
     border-bottom: none!important
 }
+
+.commit-form .field input, .commit-form .field textarea {
+    background: #f7f7f7!important
+}
+
+.ui.form textarea:focus, .ui.input textarea:focus {
+    color: rgba(0, 0, 0, .95);
+    border-color: #cb1b30;
+    border-radius: .28571429rem;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset;
+    box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset
+}
