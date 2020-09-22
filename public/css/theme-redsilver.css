@@ -288,3 +288,21 @@ a:hover {
     -webkit-box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset;
     box-shadow: 0 0 0 0 rgba(38, 34, 34, .35) inset
 }
+
+.ui.eleven.wide.column .ui.secondary.pointing.menu {
+    border-bottom: 2px solid #cb1b30
+}
+
+.ui.eleven.wide.column .ui.secondary.pointing.menu .active.item {
+    background: #e2e2e2;
+    color: rgba(0,0,0,.95);
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-color: #e53449;
+    font-weight: 700;
+    margin-bottom: -2px;
+    -webkit-box-shadow: inset 1px 1px #cb1b30, inset -1px 0 #cb1b30;
+    box-shadow: inset 2px 2px #cb1b30, inset -2px 0 #cb1b30;
+    border-radius: .28571429rem .28571429rem 0 0;
+    border-bottom: none!important
+}
