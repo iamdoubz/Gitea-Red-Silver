@@ -139,8 +139,32 @@ a:hover {
     box-shadow: none
 }
 
+/*.heatmap-color-0{
+    background-color:#703838
+}
+
+.heatmap-color-1{
+    background-color:#8e3e3e
+}
+
+.heatmap-color-2{
+    background-color:#a93d3d
+}
+
+.heatmap-color-3{
+    background-color:#c63939
+}
+
+.heatmap-color-4{
+    background-color:#e33535
+}
+
+.activity-bar-graph,.heatmap-color-5{
+    background-color:#fd2b2b
+}*/
+
 .heatmap-color-0{
-    background-color:#e2e2e2
+    background-color:#e6e0e0
 }
 
 .heatmap-color-1{
@@ -227,7 +251,9 @@ a:hover {
     -webkit-box-shadow: inset 1px 1px #e53449, inset -1px 0 #e53449;
     box-shadow: inset 1px 1px #e53449, inset -1px 0 #e53449;
     border-radius: .28571429rem .28571429rem 0 0;
-    border-bottom: none!important
+    border-bottom: none!important;
+    transition: font .4s ease;
+    -webkit-transition: font .4s ease
 }
 
 .feeds .list ul li.private {
@@ -304,5 +330,27 @@ a:hover {
     -webkit-box-shadow: inset 1px 1px #cb1b30, inset -1px 0 #cb1b30;
     box-shadow: inset 2px 2px #cb1b30, inset -2px 0 #cb1b30;
     border-radius: .28571429rem .28571429rem 0 0;
-    border-bottom: none!important
+    border-bottom: none!important;
+    transition: font .4s ease;
+    -webkit-transition: font .4s ease
+}
+
+.ui.breadcrumb a {
+    color: #c44040
+}
+
+.ui.breadcrumb a:hover {
+    color: #a43737
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+    background-color: #e2e2e2
+}
+
+.ui.secondary.pointing.menu .dropdown.item:hover, .ui.secondary.pointing.menu .link.item:hover, .ui.secondary.pointing.menu a.item:hover {
+    background-color: transparent;
+    color: rgba(0,0,0,.95);
+    font-weight: bold;
+    transition: font .4s ease;
+    -webkit-transition: font .4s ease
 }
