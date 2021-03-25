@@ -29,6 +29,53 @@
     background: #cb1b30!important
 }
 
+:root {
+    --color-primary: #cd041c;
+    --color-primary-dark-1: #ba0318;
+    --color-primary-dark-2: #ab0316;
+    --color-primary-dark-3: #960314;
+    --color-primary-dark-4: #870312;
+    --color-primary-dark-5: #75020f;
+    --color-primary-dark-6: #5f020d;
+    --color-primary-dark-7: #460109;
+    --color-primary-light-1: #d1152b;
+    --color-primary-light-2: #ce2236;
+    --color-primary-light-3: #d02f42;
+    --color-primary-light-4: #d54455;
+    --color-primary-light-5: #dd5565;
+    --color-primary-light-6: #e16674;
+    --color-primary-light-7: #ee7c89;
+    --color-primary-alpha-10: rgba(205,4,28,0.09803921568627451);
+    --color-primary-alpha-20: rgba(205,4,28,0.2);
+    --color-primary-alpha-30: rgba(205,4,28,0.29411764705882354);
+    --color-primary-alpha-40: rgba(205,4,28,0.4);
+    --color-primary-alpha-50: rgba(205,4,28,0.5019607843137255);
+    --color-primary-alpha-60: rgba(205,4,28,0.6);
+    --color-primary-alpha-70: rgba(205,4,28,0.7019607843137254);
+    --color-primary-alpha-80: rgba(205,4,28,0.8);
+    --color-primary-alpha-90: rgba(205,4,28,0.8823529411764706);
+    /*--color-secondary: #dedede;
+    --color-secondary-dark-1: #cecece;
+    --color-secondary-dark-2: #bfbfbf;
+    --color-secondary-dark-3: #a0a0a0;
+    --color-secondary-dark-4: #909090;
+    --color-secondary-dark-5: #818181;
+    --color-secondary-dark-6: #717171;
+    --color-secondary-dark-7: #626262;
+    --color-secondary-dark-7: #525252;
+    --color-secondary-dark-8: #434343;
+    --color-secondary-dark-8: #333;
+    --color-secondary-dark-9: #242424;
+    --color-secondary-dark-10: #141414;
+    --color-secondary-dark-11: #040404;
+    --color-secondary-light-1: #e5e5e5;
+    --color-secondary-light-2: #ebebeb;
+    --color-secondary-light-3: #f2f2f2;
+    --color-secondary-light-4: #f8f8f8;
+    --color-secondary-alpha-10: hsla(0,0%,87.1%,0.09803921568627451);
+    --color-secondary-alpha-20: hsla(0,0%,87.1%,0.2);*/
+}
+
 body, footer {
     background: #e2e2e2
 }
@@ -142,23 +189,18 @@ a:hover {
 /*.heatmap-color-0{
     background-color:#703838
 }
-
 .heatmap-color-1{
     background-color:#8e3e3e
 }
-
 .heatmap-color-2{
     background-color:#a93d3d
 }
-
 .heatmap-color-3{
     background-color:#c63939
 }
-
 .heatmap-color-4{
     background-color:#e33535
 }
-
 .activity-bar-graph,.heatmap-color-5{
     background-color:#fd2b2b
 }*/
@@ -353,4 +395,11 @@ a:hover {
     font-weight: bold;
     transition: font .4s ease;
     -webkit-transition: font .4s ease
+}
+
+.ui.tabular.menu .active.item, .ui.tabular.menu .active.item:hover {
+    background: #e2e2e2;
+    border-color: var(--color-primary);
+    color: var(--color-text);
+    margin-top: 1px
 }
