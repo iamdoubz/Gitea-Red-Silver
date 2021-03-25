@@ -54,26 +54,6 @@
     --color-primary-alpha-70: rgba(205,4,28,0.7019607843137254);
     --color-primary-alpha-80: rgba(205,4,28,0.8);
     --color-primary-alpha-90: rgba(205,4,28,0.8823529411764706);
-    /*--color-secondary: #dedede;
-    --color-secondary-dark-1: #cecece;
-    --color-secondary-dark-2: #bfbfbf;
-    --color-secondary-dark-3: #a0a0a0;
-    --color-secondary-dark-4: #909090;
-    --color-secondary-dark-5: #818181;
-    --color-secondary-dark-6: #717171;
-    --color-secondary-dark-7: #626262;
-    --color-secondary-dark-7: #525252;
-    --color-secondary-dark-8: #434343;
-    --color-secondary-dark-8: #333;
-    --color-secondary-dark-9: #242424;
-    --color-secondary-dark-10: #141414;
-    --color-secondary-dark-11: #040404;
-    --color-secondary-light-1: #e5e5e5;
-    --color-secondary-light-2: #ebebeb;
-    --color-secondary-light-3: #f2f2f2;
-    --color-secondary-light-4: #f8f8f8;
-    --color-secondary-alpha-10: hsla(0,0%,87.1%,0.09803921568627451);
-    --color-secondary-alpha-20: hsla(0,0%,87.1%,0.2);*/
 }
 
 body, footer {
@@ -324,11 +304,11 @@ a:hover {
 }
 
 .ui.form .dropzone:hover {
-    border: 2px dashed #0087f5;
+    border: 3px dashed var(--color-primary-dark-2);
     box-shadow: none!important;
     padding: 0;
     min-height: 5rem;
-    border-radius: 5px
+    border-radius: 10px
 }
 
 .ui.secondary.tiny.pointing.menu .active.item {
@@ -402,4 +382,8 @@ a:hover {
     border-color: var(--color-primary);
     color: var(--color-text);
     margin-top: 1px
+}
+
+.ui.segment .ui.tabular.menu .active.item, .ui.segment .ui.tabular.menu .active.item:hover {
+    background: #efefef
 }
